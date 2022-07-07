@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Autoencoder</groupId>
+  <artifactId>Autoencoder</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+  <defaultGoal>compile</defaultGoal>
+  
+  <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+        </plugins>
+  
+  </build>
+
+  <dependencies>
+       
+       <dependency>
+        <groupId>org.deeplearning4j</groupId>
+        <artifactId>deeplearning4j-ui</artifactId>
+        <version>1.0.0-M1.1</version>
+    </dependency>
+       
+<dependency>
+
+    <groupId>org.deeplearning4j</groupId>
+    <artifactId>deeplearning4j-core</artifactId>
+    <version>1.0.0-M1.1</version>
+</dependency>
+
+<dependency>
+   <groupId>org.slf4j</groupId>
+   <artifactId>slf4j-simple</artifactId>
+   <version>1.8.0-beta4</version>
+   <scope>compile</scope>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
+<dependency>
+    <groupId>org.nd4j</groupId>
+    <artifactId>nd4j-native</artifactId>
+    <version>1.0.0-M1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.sh0nk/matplotlib4j -->
+<dependency>
+    <groupId>com.github.sh0nk</groupId>
+    <artifactId>matplotlib4j</artifactId>
+    <version>0.5.0</version>
+</dependency>
+
+  </dependencies>
+  
+  
+</project>
+
+
+
